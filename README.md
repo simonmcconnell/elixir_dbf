@@ -7,7 +7,7 @@
 Small library for DBF parsing written in pure elixir
 
 ```elixir
-  {:ok, rows} = ElixirDbf.Table.read("test/fixtures/cp1251.dbf", :cp1251)
+  {:ok, dbf} = ElixirDbf.Table.read("test/fixtures/cp1251.dbf", :cp1251)
   {:ok,
    %ElixirDbf.Table{
      header: %{
